@@ -1,7 +1,6 @@
-import { Fragment, h } from 'preact'
-
-import { Counter } from './Counter'
-import { Logo } from './logo'
+import { Fragment, h } from "preact";
+import { Counter } from "./Counter";
+import { Logo } from "./logo";
 
 export function App() {
   return (
@@ -21,5 +20,5 @@ export function App() {
       <Counter />
       <Counter count={1} />
     </>
-  )
+  );
 }

@@ -1,15 +1,15 @@
 // @ts-check
-const preactRefresh = require('@prefresh/vite')
+const preactRefresh = require("@prefresh/vite");
 
 /**
  * @type { import('vite').UserConfig }
  */
 const config = {
   jsx: {
-    factory: 'h',
-    fragment: 'Fragment'
+    factory: "h",
+    fragment: "Fragment",
   },
-  plugins: [preactRefresh()]
-}
+  plugins: [preactRefresh()],
+};
 
-module.exports = config
+module.exports = config;
